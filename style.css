@@ -76,7 +76,7 @@
 
 
 .h2 {
-    font-size: 56px;
+    font-size: 48px;
     font-family: Helvetica, sans-serif;
    
 }
@@ -95,17 +95,26 @@
     
 .h3{
     font-size: 28px;
-    margin: 0 20px;
+    margin: 10px 20px;
     font-weight: lighter;
 }
 
 .link{
     color: #06c;
+    margin: 0px 25px 0px 20px;
 }
 .links{
-    padding: 20px;
+    padding: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    
+
+}
+/* adjusting link of the box 1 */
+
+.links.box1{
+    font-size: 21px;
+
 }
 
 /* Flex boxes */
