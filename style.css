@@ -71,6 +71,35 @@
     justify-content: center;
 }
 
+.box3{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    height: 580px;
+    padding-top: 60px;
+    background-image: url(https://www.apple.com/es/home/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+
+.box3 .h3{
+    color:#602b62;
+    font-size: 24px; 
+    font-style: normal;
+}
+.box3 .h2{
+    color:#602b62;
+    font-size: 48px; 
+    font-style: normal;
+}
+
+.box3 .link{
+    color: #06c;
+    margin: 0px 20px 0px 15px;
+    font-size: 19px;
+}
 
 
 /* Responsive box 1 */
@@ -205,6 +234,8 @@
     }
     
 }
+
+
  /*  H2 - H3  - links box 2 and responsive layout */
     
 .box2 .h2{
