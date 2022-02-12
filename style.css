@@ -48,8 +48,10 @@
 .box1{
     text-align: center;
     font-family: Helvetica, sans-serif;
+    font-weight: lighter;
     height: 580px;
-    padding-top: 70px;
+    padding-top: 80px;
+    
     background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
     background-size: cover;
     background-position: center;
@@ -57,16 +59,44 @@
 
 /* Responsive box 1 */
 
+/* @media screen and (max-width: 734px) and (min-width:0px){
+    .box1{
+        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
+        width: 734px;
+        height: 548px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        --gutter-color: #fff;
+            --r-globalnav-height: 48px;
+    } 
+    
+}*/
 
 
 .h2 {
     font-size: 56px;
+    font-family: Helvetica, sans-serif;
+   
 }
+
+/* @media (max-width: 734px){
+    .h2.box1{
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    } 
+}
+    */
+
 
     
 .h3{
     font-size: 28px;
     margin: 0 20px;
+    font-weight: lighter;
 }
 
 .link{
