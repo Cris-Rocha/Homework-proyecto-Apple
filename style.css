@@ -158,6 +158,9 @@
     .link.box1{
         font-size: 17px;
     }
+    .link.box2{
+        font-size: 16px;
+    }
 }
 
 
@@ -181,13 +184,43 @@
     justify-content: center;
 }
 
+/* Responsive box 2 */
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .box2{
+        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+        /* width: 320px; */
+        height: 500px;
+        --gutter-width: 12px;
+        padding-top: 88px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: relative;
+    }
+    
+}
+       
+    
 .box2 .h2{
+    margin-top: 48px;
     color:#fff;
     font-size: 48px;
 }
+@media screen and (max-width: 734px){
+.box2 .h2{
+    margin-top: 170px;
+    color:#fff;
+    font-size: 32px;
+}
+}
+
+@media screen and (max-width: 734px){
 .box2 .h3{
     color: #fec2eb;
-    font-size: 24px;
+    font-size: 19px;
+}
 }
 .box2 .link{
     color: rgb(41, 151, 255) ;
