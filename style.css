@@ -216,9 +216,14 @@
 }
 }
 
-@media screen and (max-width: 734px){
 .box2 .h3{
     color: #fec2eb;
+    
+}
+
+@media screen and (max-width: 734px){
+.box2 .h3{
+    color: #fec2eb!important;
     font-size: 19px;
 }
 }
