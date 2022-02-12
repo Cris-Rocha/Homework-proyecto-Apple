@@ -1,0 +1,103 @@
+/* Aqui tiramos a margin que ja vem no chrome */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+/* Navigation Bar  */
+
+
+
+.navigationBar{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 44px;
+    color: #f5f5f7;
+    position: fixed;
+    width: 100%;
+
+}
+.navigationList{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    max-width: 980px;
+    margin: 0 auto;
+    justify-content: space-around;    
+}
+
+@media (max-width: 400px){
+    .navigationList{
+        display: none;
+    }
+}
+
+.navigationList a{
+    text-decoration: none;
+    color: #f5f5f7;
+    opacity: .8;
+    transition: opacity 0.3;
+
+}
+.navigationList a:hover{
+    opacity:1;
+}
+
+/* Main content */
+
+.box1{
+    text-align: center;
+    height: 580px;
+    padding-top: 40px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.h2 {
+    font-size: 56px;
+}
+
+    
+.h3{
+    font-size: 28px;
+    margin: 0 20px;
+}
+
+.link{
+    color: #06c;
+}
+.links{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Flex boxes */
+
+.multipleBoxes{
+    
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.smallBox{
+    height: 624px;
+    flex-grow: 1;
+    flex-basis: 0px;
+    margin: 10px;
+    min-width: 320px;
+    text-align: center;
+
+}.boxWatch{
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium_2x.jpg
+);
+    background-size: cover;
+    background-position: center;
+}
+.boxOrange{
+    background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
