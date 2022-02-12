@@ -56,8 +56,20 @@
     background-position: center;
     justify-content: center;
 }
-    /* background-size: 734px 548px;
-        
+
+
+.box2{
+    margin-top: 10px;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    height: 580px;
+    padding-top: 80px;
+    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
 
 
 
@@ -73,14 +85,12 @@
         --gutter-width: 12px;
         background-repeat: no-repeat;
     }
-    
 }
 
 @media screen and (max-width: 321px) and (min-width: 0px) and (max-height: 700px) and (min-height: 0px){
     .box1{
         width: 320px;
-        height: 500px;
-        
+        height: 500px; 
     }  
 }
 
@@ -110,31 +120,35 @@
     }
 } */
 
+
+/* h2 - h3 */
 .h2 {
     font-size: 48px;
     font-family: Helvetica, sans-serif;
    
 }
 
-@media (max-width: 734px){
-    .h2{
-    font-size: 32px;
-    
-    } 
-}
-   
-    
 .h3{
     font-size: 28px;
     margin: 10px 20px;
     font-weight: lighter;
 }
+
+/* responsive h2-h3  box 1*/
+
+@media (max-width: 734px){
+    .h2{
+    font-size: 32px;
+    } 
+}
+   
 @media (max-width: 734px){
     .h3{
     font-size: 19px;
-    
     } 
 }
+
+/* Links  */
 
 .link{
     color: #06c;
@@ -146,12 +160,14 @@
     justify-content: center;
 
 }
+
+/*  Responsive links box 1 - box 2*/
+
 @media screen and (max-width: 734px) and (min-width:0px){
     .link.box1{
         font-size: 17px;
         margin-left: 27px;
     }
-
 }
 
 @media only screen and (max-width: 734px) {
@@ -171,18 +187,6 @@
 
 }
 
-.box2{
-    margin-top: 10px;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-weight: lighter;
-    height: 580px;
-    padding-top: 80px;
-    background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_medium_2x.jpg);
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-}
 
 /* Responsive box 2 */
 
@@ -201,7 +205,7 @@
     }
     
 }
-       
+ /*  H2 - H3  - links box 2 and responsive layout */
     
 .box2 .h2{
     margin-top: 48px;
@@ -209,16 +213,16 @@
     font-size: 48px;
 }
 @media screen and (max-width: 734px){
-.box2 .h2{
-    margin-top: 170px;
-    color:#fff;
-    font-size: 32px;
-}
+    .box2 .h2{
+        margin-top: 170px;
+        color:#fff;
+        font-size: 32px;
+    }
 }
 
 .box2 .h3{
-    color: #fec2eb;
-    
+    color: #fec2eb!important;
+
 }
 
 @media screen and (max-width: 734px){
