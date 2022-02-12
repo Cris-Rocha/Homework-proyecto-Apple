@@ -47,12 +47,17 @@
 
 .box1{
     text-align: center;
+    font-family: Helvetica, sans-serif;
     height: 580px;
-    padding-top: 40px;
+    padding-top: 70px;
     background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
     background-size: cover;
     background-position: center;
 }
+
+/* Responsive box 1 */
+
+
 
 .h2 {
     font-size: 56px;
