@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Helvetica, sans-serif;
 }
 /* Navigation Bar  */
 
@@ -255,6 +256,7 @@
 
 /* Responsive h2 and h3 box 3 */
 
+
 @media screen and (max-width: 734px){
     .box3 .h2{
         color:#602b62;
@@ -315,14 +317,27 @@
     text-align: center;
 
 }.boxWatch{
+    padding-top: 20px;
+    
     background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium_2x.jpg
 );
     background-size: cover;
     background-position: center;
+    
 }
 
-p {
+p{
     color: red;
+    font-size: 12px;
+}
+p.series{
+    font-size: 17px;
+}
+
+#flex-box1{
+    padding-top: 10px;
+    font-weight: lighter;
+    padding-bottom: 10px;
 }
 
 .boxOrange{
