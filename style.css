@@ -421,3 +421,10 @@ p.series{
     background-size: cover;
     background-position: center;
 }
+
+.fitness{
+    padding-top: 20px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
