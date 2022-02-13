@@ -499,6 +499,32 @@ p.series{
    color: rgb(41, 151, 255);
 }
 
+/* Responsive .future */
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .future{
+        background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-black-unity/promo_watch__fo7j0tnywi2q_small_2x.jpg);
+        width: 734px; 
+        height: 548px;
+        --gutter-width: 12px;
+        padding-top: 0px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        justify-content: center;
+
+        margin-left: auto;
+    }
+    .future .h2{
+        font-size: 29px;
+        font-weight: 500;
+    }
+    .future .h3{
+        font-weight: 400;
+        font-weight: lighter;
+    }
+}
 /* 5th box of flexbox section */
 
 .fitness{
