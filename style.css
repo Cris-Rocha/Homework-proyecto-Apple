@@ -442,6 +442,30 @@ p.series{
 
 /* responsive watch1 */
 
+@media screen and (max-width: 734px) and (min-width:0px){
+    .watch1{
+        background-image: url(https://www.apple.com/es/home/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_small_2x.jpg);
+        width: 734px; 
+        height: 548px;
+        --gutter-width: 12px;
+        padding-top: 0px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: relative;
+        margin-left: auto;
+    }
+    .watch1 .h2{
+        font-size: 29px;
+        font-weight: 500;
+    }
+    .watch1 .h3{
+        font-weight: 400;
+    }
+}
+
 /* 4th box of flexbox section */
 
 .future{
