@@ -600,28 +600,27 @@ p.series{
 .sosp {
     color:#f5f5f7;
     margin-top:42px;
-    font-size: 32px;
-   
+    font-size: 32px;  
 }
 
 .tv .h2{
     font-size: 32px;
     color: #f5f5f7;
-    font-weight: lighter;
-    margin-top: 17px;
-   
+    font-weight: normal;
+    margin-top: 10px;
+    letter-spacing: 3.928px;
 }
  .tv .h3{
-     margin-top: 12px;
     color: #f5f5f7;
     font-size: 19px;
+    margin-top: 05px;
 }
-.tv .link{
-  
+.final .tv .link{
     color: #2997ff;
     text-align-last: center;
-    font-size: 17px;
+    font-size: 15px;
     font-style: normal;
+
 }
     
 /* footer */
