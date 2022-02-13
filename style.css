@@ -320,6 +320,11 @@
     background-size: cover;
     background-position: center;
 }
+
+p {
+    color: red;
+}
+
 .boxOrange{
     background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg);
     background-size: cover;
