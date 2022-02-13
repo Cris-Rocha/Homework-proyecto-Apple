@@ -574,7 +574,6 @@ p.series{
         background-size: 734px 548px;
         background-repeat: no-repeat;
         justify-content: center;
-
         margin-left: auto;
     }
     .fitness .link{
@@ -592,32 +591,45 @@ p.series{
     background-position: center;
    
 }
-
-.sosp {
-    
-    color:#f5f5f7;
-    margin-top:42px;
-    font-size: 32px;
-    margin-bottom: 9;
-   
-}
 .final {
     justify-content: flex-end;
      text-align: center;
-    margin-top: 450px;
+    margin-top: 430px;
 }
+
+.sosp {
+    color:#f5f5f7;
+    margin-top:42px;
+    font-size: 32px;
+   
+}
+
 .tv .h2{
-    font-size: 30px;
+    font-size: 32px;
     color: #f5f5f7;
-    
+    font-weight: lighter;
+    margin-top: 17px;
+   
 }
-.tv .h3{
+ .tv .h3{
+     margin-top: 12px;
     color: #f5f5f7;
+    font-size: 19px;
 }
 .tv .link{
-    margin-top: 100px;
-    padding-top: 500px;
+  
     color: #2997ff;
     text-align-last: center;
+    font-size: 17px;
+    font-style: normal;
 }
     
+/* footer */
+
+.theEnd{
+    text-align: center;
+    margin-bottom: 15px;
+    font: optional;
+    font-size: 13px;
+
+}
