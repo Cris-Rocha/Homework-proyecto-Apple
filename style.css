@@ -407,3 +407,10 @@ p.series{
         font-weight: 400;
     }
 }
+
+.watch1{
+    padding-top: 20px;
+    background-image: url(https://www.apple.com/es/home/images/promos/watch-heart-month/promo_watch_heart__dlf8uc5h0kae_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
