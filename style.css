@@ -354,20 +354,33 @@ p.series{
     .boxWatch .link{
         font-size: 16px;
         justify-content: space-between;
-       align-items: center;
-       
-      
+       align-items: center; 
     }
-    
-    
 }
-
-
-
-
 /* Second box and all style */
+
 .boxOrange{
     background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg);
     background-size: cover;
     background-position: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    
 }
+.boxOrange .h2{
+    font-weight: 500px;
+    font-size: 32px;
+    line-height: 36px;
+    text-size-adjust: 100%;
+    margin-top: 37px;
+}
+.boxOrange .h3{
+    font-weight: normal;
+    font-size: 19px;
+    margin-top: 4px;
+}
+.boxOrange .link{
+    color:rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+}
+
