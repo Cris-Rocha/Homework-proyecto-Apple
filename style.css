@@ -556,6 +556,29 @@ p.series{
     margin-top: 10px;
     font-size: 17px;
 }
+
+/* Responsive .fitness */
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .fitness{
+        background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_small_2x.jpg);
+        width: 734px; 
+        height: 548px;
+        --gutter-width: 12px;
+        padding-top: 0px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        justify-content: center;
+
+        margin-left: auto;
+    }
+    .fitness .link{
+    font-size: 16px;
+    margin-right: auto;
+}
+}
 /* 6th box of flexbox section */
 
 .tv{
