@@ -216,10 +216,10 @@
 }
 
 @media only screen and (max-width: 734px) {
-    .link.box1{
+    .box1 .link{
         font-size: 17px;
     }
-    .link.box2{
+    .box2 .link{
         font-size: 16px;
     }
 }
@@ -271,15 +271,10 @@
 }
 
 @media screen and (max-width: 734px){
-.box2 .h3{
+    .box2 .h3{
     color: #fec2eb!important;
     font-size: 19px;
-}
-}
-
-/* Responsive h2 and h3 box 3 */
-
-@media screen and (max-width: 734px){
+    }
     .box3 .h2{
         color:#602b62;
         font-size: 22px;
@@ -290,7 +285,6 @@
 
     }
 }
-
 
 /* Flex boxes */
 
@@ -320,7 +314,7 @@
 }
 
 p{
-    color: red;
+    color: #bf4800 ;
     font-size: 12px;
 }
 p.series{
@@ -334,6 +328,39 @@ p.series{
 }
 
 /* responsive querie for first box  */
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .boxWatch{
+        background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_small_2x.jpg);
+        width: 734px; 
+        height: 548px;
+        --gutter-width: 12px;
+        padding-top: 0px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: relative;
+        margin-left: auto;
+    }
+    #flex-box1{
+        font-size: 18px;
+    }
+    .boxWatch .nuevo{
+        margin-top: 20px;
+        padding:10px 0px 0px 0px;
+    }
+    .boxWatch .link{
+        font-size: 16px;
+        justify-content: space-between;
+       align-items: center;
+       
+      
+    }
+    
+    
+}
 
 
 
