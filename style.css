@@ -528,12 +528,34 @@ p.series{
 /* 5th box of flexbox section */
 
 .fitness{
-    padding-top: 20px;
+    padding-top: 50px;
+    margin-top: 10px;
     background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_medium_2x.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.fitness .h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 36px;
+    text-size-adjust: 100%;
+    margin-bottom: 10 px;
+    text-decoration-thickness: auto;
+    font-style: normal;
+    padding-top: 10px;
+}
+.fitness .h3{
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 21px;
+}
+
+.fitness .link{
+    margin-top: 10px;
+    font-size: 17px;
+}
 /* 6th box of flexbox section */
 
 .tv{
