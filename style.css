@@ -428,3 +428,10 @@ p.series{
     background-size: cover;
     background-position: center;
 }
+
+.tv{
+    padding-top: 20px;
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-suspicion/promo_suspicion__cuan5534xoq6_medium_2x.jpg);
+    background-size: cover;
+    background-position: center;
+}
