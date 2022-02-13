@@ -359,6 +359,7 @@ p.series{
 /* 2nd box and all style */
 
 .boxOrange{
+    padding-top: 20px;
     background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg);
     background-size: cover;
     background-position: center;
@@ -533,6 +534,7 @@ p.series{
     background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_medium_2x.jpg);
     background-size: cover;
     background-position: center;
+    
 }
 
 .fitness .h2{
@@ -544,6 +546,7 @@ p.series{
     text-decoration-thickness: auto;
     font-style: normal;
     padding-top: 10px;
+    
 }
 .fitness .h3{
     margin: 0px;
@@ -582,8 +585,43 @@ p.series{
 /* 6th box of flexbox section */
 
 .tv{
-    padding-top: 20px;
+   padding-top: 50px;
+    margin-top: 10px;
     background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-suspicion/promo_suspicion__cuan5534xoq6_medium_2x.jpg);
     background-size: cover;
     background-position: center;
+   
 }
+
+.sosp {
+    
+    color:#f5f5f7;
+    margin-top:42px;
+    font-size: 32px;
+    margin-bottom: 9;
+   
+}
+.final {
+    justify-content: flex-end;
+     text-align: center;
+    margin-top: 400px;
+    
+
+
+}
+
+.tv .h2{
+    font-size: 30px;
+    color: #f5f5f7;
+    
+}
+.tv .h3{
+    color: #f5f5f7;
+}
+.tv .link{
+    margin-top: 100px;
+    padding-top: 500px;
+    color: #2997ff;
+    text-align-last: center;
+}
+    
