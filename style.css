@@ -357,7 +357,7 @@ p.series{
        align-items: center; 
     }
 }
-/* Second box and all style */
+/* 2nd box and all style */
 
 .boxOrange{
     background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_medium_2x.jpg);
@@ -385,6 +385,7 @@ p.series{
 }
 
 /* responsive layout BoxOrange */
+
 @media screen and (max-width: 734px) and (min-width:0px){
     .boxOrange{
         background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_small_2x.jpg);
@@ -474,6 +475,18 @@ p.series{
     background-size: cover;
     background-position: center;
 }
+
+.future .h2{
+    color: #f5f5f7;
+    margin-top: 41px;
+    font-size: 32px;
+    letter-spacing: 0.064px;
+    font-style: normal;
+    font-weight: 600;
+    text-size-adjust: 100%;
+    line-height: 36px;
+}
+
 
 /* 5th box of flexbox section */
 
