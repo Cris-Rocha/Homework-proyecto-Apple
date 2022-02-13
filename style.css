@@ -384,3 +384,26 @@ p.series{
     font-size: 17px;
 }
 
+/* responsive layout BoxOrange */
+@media screen and (max-width: 734px) and (min-width:0px){
+    .boxOrange{
+        background-image: url(https://www.apple.com/euro/home/x/screens_alt/images/promos/shot-on-iphone/tile_soip__f0c6lef982em_small_2x.jpg);
+        width: 734px; 
+        height: 548px;
+        --gutter-width: 12px;
+        padding-top: 0px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-size: 734px 548px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        position: relative;
+        margin-left: auto;
+    }
+    .boxOrange .h2{
+        font-size: 29px;
+    }
+    .boxOrange .h3{
+        font-weight: 400;
+    }
+}
