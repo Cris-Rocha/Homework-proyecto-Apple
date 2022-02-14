@@ -10,8 +10,7 @@
 
 .h2 {
     font-size: 48px;
-    font-family: Helvetica, sans-serif;
-   
+    font-family: Helvetica, sans-serif; 
 }
 
 .h3{
@@ -240,9 +239,6 @@
 }
 
 
-
-
-
 /* @media screen and (max-width: 321px) and (min-width: 0px) and (max-height: 700px) and (min-height: 0px){
     .box1{
         width: 320px;
@@ -276,10 +272,6 @@
     }
 } */
 
-
-/* responsive h2-h3  box 1*/
-
-
 /* Responsive box 3 */
 
 @media screen and (max-width: 734px) and (min-width:0px){
@@ -296,10 +288,7 @@
         background-position: center;
         justify-content: center;
     }
-}
-
-
- 
+} 
 
 /* Flebox */
 
@@ -656,13 +645,13 @@ p.series{
     .tv .h2{
     margin-top: 10px;
     letter-spacing: 3.928px;
-}
+    }
  .tv .h3{
     margin-top: 15px;
-}
+    }
 .final .tv .link{
     margin-top: 15px;
-}
+    }
 }
     
 /* footer */
