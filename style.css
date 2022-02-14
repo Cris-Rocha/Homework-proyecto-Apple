@@ -1,4 +1,4 @@
-/* Aqui tiramos a margin que ja vem no chrome */
+/* Deleting the own specifications of the chrome */
 
 * {
     margin: 0;
@@ -6,6 +6,7 @@
     text-decoration: none;
     font-family: Helvetica, sans-serif;
 }
+/* General configurarion */
 
 .h2 {
     font-size: 48px;
@@ -41,7 +42,7 @@
     width: 100%;
 
 }
-/* Adding the apple in the middle of the nav bar */
+    /* apple symbol in the middle of the nav bar */
 
 .navigationList{
     padding:10px 10px;
@@ -52,7 +53,6 @@
     margin: 0 auto;
     justify-content: space-around; 
     color: #f5f5f7;
-   
 }
 
 @media (max-width: 768px){
@@ -64,21 +64,17 @@
         justify-content: center;
         display: flex;
         font-size: 25px;
-        margin-top: 7px;
-        
+        margin-top: 7px;  
     }
-        
-    }
+}
     
-
-
 .navigationList a{
     text-decoration: none;
     color: #f5f5f7;
     opacity: .8;
     transition: opacity 0.3;
-
 }
+
 .navigationList a:hover{
     opacity:1;
 }
@@ -99,7 +95,31 @@
 
 .links.box1{
     font-size: 21px;
+}
+/* Responsive layout .box1 */
 
+@media screen and (max-width: 734px) and (min-width:0px){
+    .box1{
+        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
+        /* width: 320px; */
+        height: 500px;
+        padding-top: 88px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 734px){
+    .h2{
+    font-size: 32px;
+    } 
+}
+   
+@media (max-width: 734px){
+    .h3{
+    font-size: 19px;
+    } 
 }
 
 .box2{
@@ -127,6 +147,67 @@
     color: rgb(41, 151, 255) ;
     font-size: 19px;
 }
+/* Responsive box 2 */
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .box2{
+        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
+        /* width: 320px; */
+        height: 500px;
+        --gutter-width: 12px;
+        padding-top: 100px;
+        --content-height: 500px;
+        --gutter-width: 12px;
+        background-repeat: no-repeat;
+        justify-content: center;
+        
+    }
+}
+
+/*  Responsive links box 1 - box 2*/
+
+@media screen and (max-width: 734px) and (min-width:0px){
+    .link.box1{
+        font-size: 17px;
+        margin-left: 27px;
+    }
+}
+
+@media only screen and (max-width: 734px) {
+    .box1 .link{
+        font-size: 17px;
+    }
+    .box2 .link{
+        font-size: 16px;
+    }
+}
+
+/*  responsive layout  box 2*/
+    
+@media screen and (max-width: 734px){
+    .box2 .h2{
+        margin-top: 170px;
+        color:#fff;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 734px){
+    .box2 .h3{
+    color: #fec2eb!important;
+    font-size: 19px;
+    }
+    .box3 .h2{
+        color:#602b62;
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .box3 .h3{
+        font-size: 19px;
+
+    }
+}
+
 
 .box3{
     margin-top: 10px;
@@ -159,19 +240,8 @@
 }
 
 
-/* Responsive box 1 */
 
-@media screen and (max-width: 734px) and (min-width:0px){
-    .box1{
-        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_small_2x.jpg);
-        /* width: 320px; */
-        height: 500px;
-        padding-top: 88px;
-        --content-height: 500px;
-        --gutter-width: 12px;
-        background-repeat: no-repeat;
-    }
-}
+
 
 /* @media screen and (max-width: 321px) and (min-width: 0px) and (max-height: 700px) and (min-height: 0px){
     .box1{
@@ -209,52 +279,6 @@
 
 /* responsive h2-h3  box 1*/
 
-@media (max-width: 734px){
-    .h2{
-    font-size: 32px;
-    } 
-}
-   
-@media (max-width: 734px){
-    .h3{
-    font-size: 19px;
-    } 
-}
-
-/*  Responsive links box 1 - box 2*/
-
-@media screen and (max-width: 734px) and (min-width:0px){
-    .link.box1{
-        font-size: 17px;
-        margin-left: 27px;
-    }
-}
-
-@media only screen and (max-width: 734px) {
-    .box1 .link{
-        font-size: 17px;
-    }
-    .box2 .link{
-        font-size: 16px;
-    }
-}
-
-/* Responsive box 2 */
-
-@media screen and (max-width: 734px) and (min-width:0px){
-    .box2{
-        background-image: url(https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_small_2x.jpg);
-        /* width: 320px; */
-        height: 500px;
-        --gutter-width: 12px;
-        padding-top: 100px;
-        --content-height: 500px;
-        --gutter-width: 12px;
-        background-repeat: no-repeat;
-        justify-content: center;
-        
-    }
-}
 
 /* Responsive box 3 */
 
@@ -275,40 +299,16 @@
 }
 
 
- /*  responsive layout  box 2*/
-    
-@media screen and (max-width: 734px){
-    .box2 .h2{
-        margin-top: 170px;
-        color:#fff;
-        font-size: 32px;
-    }
-}
+ 
 
-@media screen and (max-width: 734px){
-    .box2 .h3{
-    color: #fec2eb!important;
-    font-size: 19px;
-    }
-    .box3 .h2{
-        color:#602b62;
-        font-size: 22px;
-        font-weight: bold;
-    }
-    .box3 .h3{
-        font-size: 19px;
-
-    }
-}
-
-/* Flex boxes */
+/* Flebox */
 
 .multipleBoxes{
     
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; 
 }
+
 .smallBox{
     height: 624px;
     flex-grow: 1;
@@ -316,14 +316,12 @@
     margin: 10px;
     min-width: 320px;
     text-align: center;
-
 }
-/* First box and all style */
+/* First line - box1 and all style */
 
 .boxWatch{
     padding-top: 20px;
-    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium_2x.jpg
-);
+    background-image: url(https://www.apple.com/v/home/aj/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_medium_2x.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -342,7 +340,7 @@ p.series{
     padding-bottom: 10px;
 }
 
-/* responsive querie for first box  */
+/* responsive layoyt - line one box1 */
 
 @media screen and (max-width: 734px) and (min-width:0px){
     .boxWatch{
@@ -371,7 +369,7 @@ p.series{
        align-items: center; 
     }
 }
-/* 2nd box and all style */
+/* First line - box2 and all style */
 
 .boxOrange{
     padding-top: 20px;
@@ -399,7 +397,7 @@ p.series{
     font-size: 17px;
 }
 
-/* responsive layout BoxOrange */
+/* responsive layout - line one box2 */
 
 @media screen and (max-width: 734px) and (min-width:0px){
     .boxOrange{
@@ -423,7 +421,7 @@ p.series{
         font-weight: 400;
     }
 }
-/* third box of flexbox section */
+/* Second line - box3 and all style */
 
 .watch1{
     padding-top: 20px;
@@ -482,7 +480,7 @@ p.series{
     }
 }
 
-/* 4th box of flexbox section */
+/* Second line - box4 and all style */
 
 .future{
     padding-top: 20px;
@@ -541,7 +539,7 @@ p.series{
         font-weight: lighter;
     }
 }
-/* 5th box of flexbox section */
+/* Third line - box5 and all style */
 
 .fitness{
     padding-top: 50px;
@@ -549,7 +547,6 @@ p.series{
     background-image: url(https://www.apple.com/v/home/aj/images/promos/apple-fitness-plus-winter/tile_winter__bpktzwl6hsc2_medium_2x.jpg);
     background-size: cover;
     background-position: center;
-    
 }
 
 .fitness .h2{
@@ -560,9 +557,9 @@ p.series{
     margin-bottom: 10 px;
     text-decoration-thickness: auto;
     font-style: normal;
-    padding-top: 10px;
-    
+    padding-top: 10px; 
 }
+
 .fitness .h3{
     margin: 0px;
     padding-top: 20px;
@@ -596,7 +593,7 @@ p.series{
     margin-right: auto;
 }
 }
-/* 6th box of flexbox section */
+/* Third line - box6 and all style */
 
 .tv{
    padding-top: 50px;
@@ -604,7 +601,6 @@ p.series{
     background-image: url(https://www.apple.com/v/home/aj/images/promos/tv-plus-suspicion/promo_suspicion__cuan5534xoq6_medium_2x.jpg);
     background-size: cover;
     background-position: center;
-   
 }
 .final {
     justify-content: flex-end;
@@ -625,6 +621,7 @@ p.series{
     margin-top: 10px;
     letter-spacing: 3.928px;
 }
+
  .tv .h3{
     color: #f5f5f7;
     font-size: 19px;
@@ -636,7 +633,8 @@ p.series{
     font-size: 15px;
     font-style: normal;
 }
-/* responsive layout for .tv */
+
+/* Responsive layout .tv */
 
 @media screen and (max-width: 734px) and (min-width:0px){
     .tv{
