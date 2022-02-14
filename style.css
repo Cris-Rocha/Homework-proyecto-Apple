@@ -198,7 +198,7 @@
     }
     .box3 .h2{
         color:#602b62;
-        font-size: 22px;
+        font-size: 22px !important;
         font-weight: bold;
     }
     .box3 .h3{
